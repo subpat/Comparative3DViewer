@@ -8,7 +8,7 @@ The application has been implemented in JAVA, follows the MVVM architectural gui
 
 
 
-NOTE:
+# Compilation
 
 1. The project uses buildToolsVersion "28.0.3", please do not update it.
 
@@ -28,7 +28,7 @@ This means the NDK (r16b) path is not available in the file: local.properties. P
 
 
 
-
+# Application Use
 
 Use case 1: Viewing a single 3D model on screen.
 
