@@ -26,6 +26,9 @@ com.android.builder.errors.EvalIssueException: ABIs [armeabi, mips] are not supp
 This means the NDK (r16b) path is not available in the file: local.properties. Please add it, example: ndk.dir=C\:\\Users\\Subhadeep\\AppData\\Local\\Android\\Ndk-r16b
 
 
+# Application Binary
+
+Get the APK from https://github.com/subpat/Comparative3DViewer/releases/tag/Release_1.0.0
 
 
 # Application Use
