@@ -21,8 +21,7 @@ ABIs [armeabi, mips] are not supported for platform. Supported ABIs are [arm64-v
 
 OR 
 
-A problem occurred configuring project ':app'.
-> com.android.builder.errors.EvalIssueException: ABIs [armeabi, mips] are not supported for platform. Supported ABIs are [arm64-v8a, armeabi-v7a, x86, x86_64].
+com.android.builder.errors.EvalIssueException: ABIs [armeabi, mips] are not supported for platform. Supported ABIs are [arm64-v8a, armeabi-v7a, x86, x86_64].
 
 This means the NDK (r16b) path is not available in the file: local.properties. Please add it, example: ndk.dir=C\:\\Users\\Subhadeep\\AppData\\Local\\Android\\Ndk-r16b
 
