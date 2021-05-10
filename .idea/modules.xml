@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KiwiMulti3DViewer-3.0.0_MVVM.iml" filepath="$PROJECT_DIR$/.idea/modules/KiwiMulti3DViewer-3.0.0_MVVM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KiwiNative/KiwiMulti3DViewer-3.0.0_MVVM.KiwiNative.iml" filepath="$PROJECT_DIR$/.idea/modules/KiwiNative/KiwiMulti3DViewer-3.0.0_MVVM.KiwiNative.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/KiwiMulti3DViewer-3.0.0_MVVM.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/KiwiMulti3DViewer-3.0.0_MVVM.app.iml" />
+    </modules>
+  </component>
+</project>

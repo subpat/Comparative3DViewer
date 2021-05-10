@@ -1,0 +1,2 @@
+C:\Users\Subhadeep\Documents\AndroidStudio\KiwiMulti3DViewer-3.0.0_MVVM\app\src\main\jni\Android.mk
+C:\Users\Subhadeep\Documents\AndroidStudio\KiwiMulti3DViewer-3.0.0_MVVM\app\src\main\jni\Application.mk

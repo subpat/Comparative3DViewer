@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:layout_margin="35dp" android:orientation="vertical">
+
+
+        <View
+            android:id="@+id/vertical_divider"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"/>
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/NumFilesTag"
+            android:text="@string/settings_no_of_files"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/vertical_divider"/>
+        <Spinner
+            android:id="@+id/NumFiles"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/vertical_divider"/>
+
+        <TextView
+            android:id="@+id/ModeTag"
+            android:text="@string/settings_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/vertical_divider"
+            android:layout_below="@+id/NumFiles"/>
+        <Spinner
+            android:id="@+id/Mode"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/vertical_divider"
+            android:layout_below="@+id/NumFiles"/>
+
+
+
+
+
+
+
+
+        <View
+            android:id="@+id/horizontal_divider_one"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_below="@+id/Mode"/>
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/background1"
+            android:text="@string/settings_background_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/vertical_divider"
+            android:layout_below="@+id/horizontal_divider_one"/>
+        <Spinner
+            android:id="@+id/background_one_color_group"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/vertical_divider"
+            android:layout_below="@+id/horizontal_divider_one"/>
+        <Spinner
+            android:id="@+id/background_one_color"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/vertical_divider"
+            android:layout_below="@+id/background_one_color_group"/>
+
+
+
+
+
+
+
+        <View
+            android:id="@+id/horizontal_divider_two"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_below="@+id/background_one_color" />
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/background2"
+            android:text="@string/settings_background_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/vertical_divider"
+            android:layout_below="@+id/horizontal_divider_two"/>
+        <Spinner
+            android:id="@+id/background_two_color_group"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/vertical_divider"
+            android:layout_below="@+id/horizontal_divider_two"/>
+        <Spinner
+            android:id="@+id/background_two_color"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/vertical_divider"
+            android:layout_below="@+id/background_two_color_group"/>
+
+
+
+
+
+
+        <View
+            android:id="@+id/horizontal_divider_three"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_below="@+id/background_two_color"/>
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/FileOneTag"
+            android:text="@string/settings_file_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/vertical_divider"
+            android:layout_below="@+id/horizontal_divider_three"/>
+        <Spinner
+            android:id="@+id/FileOneName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/vertical_divider"
+            android:layout_below="@+id/horizontal_divider_three"/>
+        <TextView
+            android:id="@+id/FileOnePosTag"
+            android:text="@string/settings_position_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/vertical_divider"
+            android:layout_below="@+id/FileOneName"/>
+        <Spinner
+            android:id="@+id/FileOnePos"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/vertical_divider"
+            android:layout_below="@+id/FileOneName"/>
+        <TextView
+            android:id="@+id/FileOneOpacityTag"
+            android:text="@string/settings_opacity_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/vertical_divider"
+            android:layout_below="@+id/FileOnePos"/>
+        <Spinner
+            android:id="@+id/FileOneOpacity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/vertical_divider"
+            android:layout_below="@+id/FileOnePos"/>
+        <TextView
+            android:id="@+id/FileOneColorTag"
+            android:text="@string/settings_color_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/vertical_divider"
+            android:layout_below="@+id/FileOneOpacity"/>
+        <Spinner
+            android:id="@+id/FileOneColorGroup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/vertical_divider"
+            android:layout_below="@+id/FileOneOpacity"/>
+        <Spinner
+            android:id="@+id/FileOneColor"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/vertical_divider"
+            android:layout_below="@+id/FileOneColorGroup"/>
+
+
+
+
+
+
+
+
+
+        <View
+            android:id="@+id/horizontal_divider_four"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_below="@+id/FileOneColor" />
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/FileTwoTag"
+            android:text="@string/settings_file_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/vertical_divider"
+            android:layout_below="@+id/horizontal_divider_four"/>
+        <Spinner
+            android:id="@+id/FileTwoName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/vertical_divider"
+            android:layout_below="@+id/horizontal_divider_four"/>
+        <TextView
+            android:id="@+id/FileTwoPosTag"
+            android:text="@string/settings_position_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/vertical_divider"
+            android:layout_below="@+id/FileTwoName"/>
+        <Spinner
+            android:id="@+id/FileTwoPos"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/vertical_divider"
+            android:layout_below="@+id/FileTwoName"/>
+        <TextView
+            android:id="@+id/FileTwoOpacityTag"
+            android:text="@string/settings_opacity_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/vertical_divider"
+            android:layout_below="@+id/FileTwoPos"/>
+        <Spinner
+            android:id="@+id/FileTwoOpacity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/vertical_divider"
+            android:layout_below="@+id/FileTwoPos"/>
+        <TextView
+            android:id="@+id/FileTwoColorTag"
+            android:text="@string/settings_color_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/vertical_divider"
+            android:layout_below="@+id/FileTwoOpacity"/>
+        <Spinner
+            android:id="@+id/FileTwoColorGroup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/vertical_divider"
+            android:layout_below="@+id/FileTwoOpacity"/>
+        <Spinner
+            android:id="@+id/FileTwoColor"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/vertical_divider"
+            android:layout_below="@+id/FileTwoColorGroup"/>
+
+
+
+
+
+        <View
+            android:id="@+id/horizontal_divider_five"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_below="@+id/FileTwoColor" />
+
+
+        <Button
+            android:id="@+id/button_go"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_load_button"
+            android:layout_below="@+id/horizontal_divider_five"
+            android:layout_centerHorizontal="true"/>
+
+        <View
+            android:id="@+id/horizontal_divider_six"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/button_go" />
+
+    </RelativeLayout>
+
+</ScrollView>

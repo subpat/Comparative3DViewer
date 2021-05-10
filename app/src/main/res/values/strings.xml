@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">KiwiViewer-3</string>
+
+
+    <string name="main_first_use">Preparing app for first use&#8230; Please wait!</string>
+    <string name="main_done">Press OK to CONTINUE.</string>
+    <string name="main_ok_button">OK</string>
+
+    <string name="settings_no_of_files">Number of models: </string>
+    <string name="settings_mode">Mode of operation: </string>
+    <string name="settings_background_one">Color background #1: </string>
+    <string name="settings_background_two">Color background #2: </string>
+    <string name="settings_file_one">File model #1: </string>
+    <string name="settings_position_one">Position model #1: </string>
+    <string name="settings_opacity_one">Opacity model #1: </string>
+    <string name="settings_color_one">Color model #1: </string>
+    <string name="settings_file_two">File model #2: </string>
+    <string name="settings_position_two">Position model #2: </string>
+    <string name="settings_opacity_two">Opacity model #2: </string>
+    <string name="settings_color_two">Color model #2: </string>
+    <string name="settings_load_button">Load Model</string>
+
+    <string name="loading_activity">LOADING&#8230;</string>
+
+    <string name="legendHorizontal">&#32;&#9632; File#Horizontal&#32;</string>
+
+    <string-array name="models">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="windows">
+        <item>Separate Window</item>
+        <item>Same Window</item>
+    </string-array>
+
+
+    <string-array name="opacity">
+        <item>0.1</item>
+        <item>0.2</item>
+        <item>0.3</item>
+        <item>0.4</item>
+        <item>0.5</item>
+        <item>0.6</item>
+        <item>0.7</item>
+        <item>0.8</item>
+        <item>0.9</item>
+        <item>1.0</item>
+    </string-array>
+
+
+    <string-array name="offset">
+        <item>0</item>
+        <item>25</item>
+        <item>50</item>
+        <item>75</item>
+        <item>100</item>
+        <item>125</item>
+        <item>150</item>
+        <item>175</item>
+        <item>200</item>
+    </string-array>
+
+
+
+</resources>

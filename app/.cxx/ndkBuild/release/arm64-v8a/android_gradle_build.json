@@ -1,0 +1,12 @@
+{
+  "buildFiles": [
+    "C:\\Users\\Subhadeep\\Documents\\AndroidStudio\\KiwiMulti3DViewer-3.0.0_MVVM\\app\\src\\main\\jni\\Android.mk",
+    "C:\\Users\\Subhadeep\\Documents\\AndroidStudio\\KiwiMulti3DViewer-3.0.0_MVVM\\app\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [],
+  "buildTargetsCommand": "C:\\Users\\Subhadeep\\AppData\\Local\\Android\\Ndk-r16b\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\Subhadeep\\Documents\\AndroidStudio\\KiwiMulti3DViewer-3.0.0_MVVM\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\Users\\Subhadeep\\Documents\\AndroidStudio\\KiwiMulti3DViewer-3.0.0_MVVM\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dC:/Users/Subhadeep/Documents/AndroidStudio/KiwiMulti3DViewer-3.0.0_MVVM/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\Users\\Subhadeep\\Documents\\AndroidStudio\\KiwiMulti3DViewer-3.0.0_MVVM\\app\\build\\intermediates\\ndkBuild\\release\\lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {},
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": []
+}
