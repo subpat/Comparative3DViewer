@@ -1,0 +1,7 @@
+[
+  {
+    "level": "ERROR",
+    "message": "ABIs [armeabi, mips] are not supported for platform. Supported ABIs are [arm64-v8a, armeabi-v7a, x86, x86_64].",
+    "diagnosticCode": "UNKNOWN"
+  }
+]

@@ -1,1 +1,1 @@
-C:\Users\Subhadeep\Documents\AndroidStudio\KiwiMulti3DViewer-3.0.0_MVVM\app\build\intermediates\ndkBuild\debug\obj\local\x86
+C:\Users\Subhadeep\Documents\AndroidStudio\AndroidTutorials\Comparative3DViewer\app\build\intermediates\ndkBuild\debug\obj\local\x86
