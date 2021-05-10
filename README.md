@@ -12,7 +12,7 @@ NOTE:
 
 1. The project uses buildToolsVersion "28.0.3", please do not update it.
 
-2. You will need Ndk-r16b for compiling and running this project, since part of the project is coded in C/C++. 
+2. You will need Ndk-r16b for compiling and running this project, since part of the project is coded in C/C++. Please get it from: https://developer.android.com/ndk/downloads/older_releases
 
 3. If you get the following erros:
 
