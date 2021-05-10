@@ -1,6 +1,6 @@
 APP_OPTIM := release
 APP_PLATFORM := android-21
-APP_STL := c++_static
+APP_STL := gnustl_shared
 #APP_CFLAGS
 APP_CPPFLAGS += -frtti
 APP_CPPFLAGS += -fexceptions
