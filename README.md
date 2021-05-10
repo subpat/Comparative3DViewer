@@ -1,7 +1,9 @@
 # Comparative3DViewer
 
 
-A 3D model viewer that allows viewing one or multiple 3D objects on the same screen.
+A 3D model viewer for ANDROID that allows viewing one or multiple 3D objects on the same screen.
+The application has been implemented in JAVA, follows the MVVM architectural guidelines.
+
 
 Use case 1: Viewing a single 3D model on screen.
 
