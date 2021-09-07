@@ -3,7 +3,7 @@
 
 A 3D model viewer for ANDROID that allows viewing one or multiple 3D objects on the same screen, depending on the chosen option at the "Number of models" spinner item. The application has been implemented in JAVA, follows the MVVM architectural guidelines.
 
-Users can interract with interract with the 3D models by zooming in or out, and rotating the models around. Note that the application supports screen rotations. It also restores the 3D objects as they were being viewed by the user in case the application was forced to the background and brought back to the foreground again, this is achieved by temporarily storing the camera parameters.
+Users can interract with the 3D models by zooming in or out, and rotating the models around. Note that the application supports screen rotations. It also restores the 3D objects as they were being viewed by the user in case the application was forced to the background and brought back to the foreground again, this is achieved by temporarily storing the camera parameters.
 
 When viewing multiple models on screen, please use the "mode of operation" to select if the models are to be viewed on the same or seperate windows.
 
