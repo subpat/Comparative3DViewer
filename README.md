@@ -1,9 +1,17 @@
 # Comparative3DViewer
 
 
-A 3D model viewer for ANDROID that allows viewing one or multiple 3D objects on the same screen.
+A 3D model viewer for ANDROID that allows viewing one or multiple 3D objects on the same screen, depending on the chosen option at the "Number of models" spinner item. The application has been implemented in JAVA, follows the MVVM architectural guidelines.
 
-The application has been implemented in JAVA, follows the MVVM architectural guidelines.
+Users can interract with interract with the 3D models by zooming in or out, and rotating the models around. Note that the application supports screen rotations. It also restores the 3D objects as they were being viewed by the user in case the application was forced to the background and brought back to the foreground again, this is achieved by temporarily storing the camera parameters.
+
+When viewing multiple models on screen, please use the "mode of operation" to select if the models are to be viewed on the same or seperate windows.
+
+If two models are viewed on the same screen, it would make sense to choose the appropriate colors and transparancy for each of them.
+
+When two 3D models are being viewed in seperate windows, their movements can be synchronized or unsychronized, causing the same movements for both the models when the user interracts with just one of them. This is useful when conducting a comparative study of two similar 3D models, imagine studying the recovery of a patient after surgery. Note that synchronized movement of the models can be toggled by a long press on screen.
+
+Enjoy!
 
 
 
